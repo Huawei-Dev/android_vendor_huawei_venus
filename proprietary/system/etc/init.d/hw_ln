@@ -1,0 +1,22 @@
+#!/system/bin/sh
+
+mount -o remount,rw /
+
+ln -sf /system/apex/com.android.runtime.release/lib/libandroidicu.so /system/lib/vndk-29/libandroidicu.so
+ln -sf /system/lib/libdl_android.so /system/lib/vndk-29/libdl_android.so
+ln -sf /system/apex/com.android.runtime.release/lib/libicui18n.so /system/lib/vndk-29/libicui18n.so
+ln -sf /system/apex/com.android.runtime.release/lib/libicuuc.so /system/lib/vndk-29/libicuuc.so
+ln -sf /system/apex/com.android.runtime.release/lib/libnativehelper.so /system/lib/vndk-29/libnativehelper.so
+ln -sf /system/lib/libstdc++.so /system/lib/vndk-29/libstdc++.so
+
+ln -sf /system/apex/com.android.runtime.release/lib64/libart.so /system/lib64/vndk-29/libart.so
+ln -sf /system/apex/com.android.runtime.release/lib64/libartbase.so /system/lib64/vndk-29/libartbase.so
+ln -sf /system/apex/com.android.runtime.release/lib64/libartpalette.so /system/lib64/vndk-29/libartpalette.so
+ln -sf /system/apex/com.android.runtime.release/lib64/libdexfile.so /system/lib64/vndk-29/libdexfile.so
+ln -sf /system/lib64/libdl_android.so /system/lib64/vndk-29/libdl_android.so
+ln -sf /system/apex/com.android.runtime.release/lib64/libnativebridge.so /system/lib64/vndk-29/libnativebridge.so
+ln -sf /system/apex/com.android.runtime.release/lib64/libprofile.so /system/lib64/vndk-29/libprofile.so
+ln -sf /system/apex/com.android.runtime.release/lib64/libsigchain.so /system/lib64/vndk-29/libsigchain.so
+ln -sf /system/lib64/libstdc++.so /system/lib64/vndk-29/libstdc++.so
+
+mount -o remount,ro /

@@ -1,0 +1,4 @@
+version=1.10.17.117
+type=CELLULAR_CLOUD
+subtype=EMUI6
+compatibleVersion=1
