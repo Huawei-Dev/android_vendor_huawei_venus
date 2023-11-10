@@ -21,6 +21,7 @@ PRODUCT_PACKAGES += \
     native_packages.xml \
     hdbd \
     hw_charger \
-    hw_ueventd
+    hw_ueventd \
+    gnss_supl20service_hisi
     
 $(call inherit-product, vendor/huawei/venus/venus-vendor-blobs.mk)
