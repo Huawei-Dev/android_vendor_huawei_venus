@@ -1,4 +1,4 @@
-# Copyright (C) 2020 The LineageOS Project
+# Copyright (C) 2020-2023 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -12,15 +12,6 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# Soong namespaces
-PRODUCT_SOONG_NAMESPACES += \
-    vendor/huawei/vns
-
-PRODUCT_PACKAGES += \
-    27c11b57-14ff-48bf-abbe-92e345092278.sec \
-    native_packages.xml \
-    hdbd \
-    hw_charger \
-    hw_ueventd
-    
-$(call inherit-product, vendor/huawei/vns/vns-vendor-blobs.mk)
+PRODUCT_COPY_FILES += \
+	$(call find-copy-subdir-files,*,vendor/huawei/venus/proprietary/system/,system/) \
+	$(call find-copy-subdir-files,*,vendor/huawei/venus/proprietary/vendor/,vendor/)
