@@ -17,11 +17,7 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/huawei/venus
 
 PRODUCT_PACKAGES += \
-    27c11b57-14ff-48bf-abbe-92e345092278.sec \
     native_packages.xml \
-    hdbd \
-    hw_charger \
-    hw_ueventd \
     gnss_supl20service_hisi \
     libril
     

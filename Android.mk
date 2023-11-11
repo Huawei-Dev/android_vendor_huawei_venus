@@ -17,14 +17,6 @@ LOCAL_PATH := $(call my-dir)
 ifneq ($(filter venus,$(TARGET_DEVICE)),)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE       := 27c11b57-14ff-48bf-abbe-92e345092278.sec
-LOCAL_MODULE_TAGS  := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_SRC_FILES    := root/sbin/27c11b57-14ff-48bf-abbe-92e345092278.sec
-LOCAL_MODULE_PATH  := $(TARGET_ROOT_OUT)/sbin
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE       := native_packages.xml
 LOCAL_MODULE_TAGS  := optional
 LOCAL_MODULE_CLASS := ETC
@@ -32,38 +24,9 @@ LOCAL_SRC_FILES    := root/res/native_packages.xml
 LOCAL_MODULE_PATH  := $(TARGET_ROOT_OUT)/res
 include $(BUILD_PREBUILT)
 
-include $(CLEAR_VARS)
-LOCAL_MODULE       := hdbd
-LOCAL_MODULE_TAGS  := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_SRC_FILES    := root/sbin/hdbd
-LOCAL_MODULE_PATH  := $(TARGET_ROOT_OUT)/sbin
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE       := hw_charger
-LOCAL_MODULE_TAGS  := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_SRC_FILES    := root/sbin/hw_charger
-LOCAL_MODULE_PATH  := $(TARGET_ROOT_OUT)/sbin
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE       := hw_ueventd
-LOCAL_MODULE_TAGS  := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_SRC_FILES    := root/sbin/hw_ueventd
-LOCAL_MODULE_PATH  := $(TARGET_ROOT_OUT)/sbin
-include $(BUILD_PREBUILT)
-
 # Symlink Product Audio
 $(shell mkdir -p $(TARGET_OUT)/product/etc; \
     ln -sf /produce/etc/audio \
 	    $(TARGET_OUT)/product/etc/audio)
-
-# WiFi
-$(shell mkdir -p $(TARGET_OUT)/etc; \
-    ln -sf /vendor/etc/wifi \
-	    $(TARGET_OUT)/etc/wifi)
 
 endif

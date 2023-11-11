@@ -1,4 +1,0 @@
-service light-ext-hal-2-0 /vendor/bin/hw/vendor.huawei.hardware.light@2.0-service
-    class hal
-    user system
-    group system
