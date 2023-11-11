@@ -22,6 +22,7 @@ PRODUCT_PACKAGES += \
     hdbd \
     hw_charger \
     hw_ueventd \
-    gnss_supl20service_hisi
+    gnss_supl20service_hisi \
+    libril
     
 $(call inherit-product, vendor/huawei/venus/venus-vendor-blobs.mk)
