@@ -24,9 +24,4 @@ LOCAL_SRC_FILES    := root/res/native_packages.xml
 LOCAL_MODULE_PATH  := $(TARGET_ROOT_OUT)/res
 include $(BUILD_PREBUILT)
 
-# Symlink Product Audio
-$(shell mkdir -p $(TARGET_OUT)/product/etc; \
-    ln -sf /produce/etc/audio \
-	    $(TARGET_OUT)/product/etc/audio)
-
 endif
