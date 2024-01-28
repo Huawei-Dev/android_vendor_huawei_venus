@@ -162,6 +162,7 @@ function mk_p_dirs()
     chmod_retry /dev/hwfm system system
     chmod_retry /dev/hwgnss system system
     chmod_retry /dev/hwbt bluetooth bluetooth
+    chmod_retry /dev/hwnfc nfc nfc
     chmod_retry /dev/hwir system system
 
     chmod_retry /sys/hi110x_ps/gnss_lowpower_state system system
