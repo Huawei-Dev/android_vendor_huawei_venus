@@ -19,6 +19,6 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_PACKAGES += \
     native_packages.xml \
     gnss_supl20service_hisi \
-    libril
+    libril-hisi
     
 $(call inherit-product, vendor/huawei/venus/venus-vendor-blobs.mk)

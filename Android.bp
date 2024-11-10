@@ -6,17 +6,17 @@ soong_namespace {
 }
 
 cc_prebuilt_library_shared {
-	name: "libril",
+	name: "libril-hisi",
 	owner: "huawei",
 	strip: {
 		none: true,
 	},
 	target: {
 		android_arm: {
-			srcs: ["vendor/lib/libril.so"],
+			srcs: ["vendor/lib/libril-hisi.so"],
 		},
 		android_arm64: {
-			srcs: ["vendor/lib64/libril.so"],
+			srcs: ["vendor/lib64/libril-hisi.so"],
 		},
 	},
 	compile_multilib: "both",
