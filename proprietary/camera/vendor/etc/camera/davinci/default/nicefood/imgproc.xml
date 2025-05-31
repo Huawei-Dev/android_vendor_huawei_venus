@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="GB2312"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Config>
     <Global>
         <InvalidYuvCorrec>0</InvalidYuvCorrec>
@@ -392,12 +392,12 @@
 
     <ColorManagement>
         <hueShift>
-            <size>15</size><!--hueShift的数据长度-->
-            <params> 0 0 0 42 43 3 85 85 7 127 127 10 170 171 0 </params> <!--三个一组，不超过10组-->
+            <size>15</size>
+            <params> 0 0 0 42 43 3 85 85 7 127 127 10 170 171 0 </params>
         </hueShift>
         <satGain>
-            <size>2</size><!--satGain的数据长度-->
-            <params>175 190</params> <!--第一个是用于调节饱和度增强程度，取值范围[128,255], 第二个参数用于纯色保护-->
+            <size>2</size>
+            <params>175 190</params>
         </satGain>
     </ColorManagement>
 

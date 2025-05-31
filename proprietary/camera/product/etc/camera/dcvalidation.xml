@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="GB2312"?>
+<?xml version="1.0" encoding="utf-8"?>
 <HWA_DCVALIDATION>
     <Mode m="0.861111111" n="0.5000" rectWidth="160" rectHeight="160" distance="150" minDistance="132" maxDistance="170" vcm="150" minVcm="-80" maxVcm="80" />
     <Mode m="0.583333333" n="0.5000" rectWidth="160" rectHeight="160" distance="400" minDistance="359" maxDistance="443" vcm="400" minVcm="-60" maxVcm="60" />

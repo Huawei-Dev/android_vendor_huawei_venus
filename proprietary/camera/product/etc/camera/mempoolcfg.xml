@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="GB2312"?>
+<?xml version="1.0" encoding="utf-8"?>
 <MemPoolConfig  Version="Mempoolcfg_V2.0" Time="20151120">
     <Gloable>
         <Enable>1</Enable>

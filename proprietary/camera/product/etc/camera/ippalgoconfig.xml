@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="GB2312"?>
+<?xml version="1.0" encoding="utf-8"?>
 <IppConfig>
 	<IppAlgo name="ColorReverser" switcher="0" ></IppAlgo>
 	<IppAlgo name="FaceDetection" switcher="1" ></IppAlgo>

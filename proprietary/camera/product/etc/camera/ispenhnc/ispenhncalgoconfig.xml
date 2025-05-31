@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="GB2312"?>
+<?xml version="1.0" encoding="utf-8"?>
 <IspEnhncAlgoConfig>
 	<IspEnhncAlgo name="YuvCalculate" switcher="0" ></IspEnhncAlgo>
 	<IspEnhncAlgo name="AntiBanding" switcher="1" ></IspEnhncAlgo>
