@@ -13,6 +13,8 @@
 # limitations under the License.
 
 PRODUCT_COPY_FILES += \
+	$(call find-copy-subdir-files,*,vendor/huawei/venus/proprietary/camera/product/,product/) \
+	$(call find-copy-subdir-files,*,vendor/huawei/venus/proprietary/camera/vendor/,vendor/) \
 	$(call find-copy-subdir-files,*,vendor/huawei/venus/proprietary/odm/,odm/) \
 	$(call find-copy-subdir-files,*,vendor/huawei/venus/proprietary/system/,system/) \
 	$(call find-copy-subdir-files,*,vendor/huawei/venus/proprietary/vendor/,vendor/)
