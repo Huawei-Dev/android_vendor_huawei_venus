@@ -21,4 +21,5 @@ PRODUCT_PACKAGES += \
     gnss_supl20service_hisi \
     libril
     
+$(call inherit-product, vendor/gapps/arm64/arm64-vendor.mk)
 $(call inherit-product, vendor/huawei/venus/venus-vendor-blobs.mk)
